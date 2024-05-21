@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朝礼アプリ</title>
+    <link rel="stylesheet" href="chourei.css">
+</head>
+
+<body>
+    <h1>朝礼発表者決めアプリ</h1>
+    <div class="container">
+        <div class="clock">
+            <p class="clock-date text_bk"></p>
+            <p class="clock-time text_bk"></p>
+        </div>
+        <div>
+            <button id="btn" class="btn">次の発表者</button>
+        </div>
+        <p id="number" class="text_bk text_fontsize">ネーム</p>
+    </div>
+    <div class="container">
+        <div id="timer" class="text_bk text_fontsize">00:00.000</div>
+        <button id="start" class="btn">start</button>
+        <button id="stop" class="btn">stop</button>
+        <button id="reset" class="btn">reset</button>
+    </div>
+
+    <script src="chourei.js"></script>
+</body>
+
+</html>

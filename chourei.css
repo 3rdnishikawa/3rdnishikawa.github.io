@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to right, #e60000, #f39800, #fff100, #009944, #0068b7, #1d2088, #920783);
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 180%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.clock {
+  font-family: 'share Tech Mono', monospace;
+  color: #daf6ff;
+  text-shadow: 0 0 20px #0aafe6;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.clock-date {
+  font-size: 25px;
+  /* デフォルトのサイズ */
+}
+
+.clock-time {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .clock-date {
+    font-size: 5vw;
+  }
+
+  .clock-time {
+    font-size: 20vw;
+  }
+}
+
+.btn {
+  width: 300px;
+  appearance: none;
+  border-radius: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  margin: 5px auto;
+  font-size: 150%;
+}
+
+.text_fontsize {
+  font-size: 200%;
+}
+
+.text_bk {
+  width: 250px;
+  appearance: none;
+  border-radius: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 10px auto;
+  padding: 8px 16px;
+}
